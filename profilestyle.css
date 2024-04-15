@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+     position: absolute;
+     justify-content: center;
+     min-height: 500px;
+     background-image: url(profileimg.png);
+     background-size:cover;
+     background-attachment: fixed;
+}
+
+
+html{
+     scroll-behavior: smooth;
+     font-family: fantasy;
+}
+
+
+ul{
+     list-style: none;
+     padding: 20px;
+     height: 100%;
+     width: 180px;
+     position: fixed;
+     background:transparent;
+     top: 0;
+     left: 0;
+     box-shadow: 2px 0 5px #888888;
+     animation: transitionIn 1.3s ease-in-out forwards;
+     font-style: italic;
+}
+
+
+span{
+     position: absolute;
+     margin-top: 34px;
+     margin-left: 20px;
+     font-size: 25px;
+     font-weight: 900;
+     color: #fff;
+     animation: transitionIn 1.3s ease-in-out forwards;
+}
+
+
+span i{
+     margin-right: 5px;
+}
+
+
+ul li{
+     margin: 5px;
+     padding: 5px;
+     margin-top: 120px;
+}
+
+
+ul li a{
+     color: #fff;
+     text-decoration: none;
+     font-size: 20px;
+     padding: 5px;
+}
+
+
+
+ul li a:hover{
+     text-decoration: none;
+     letter-spacing: 1px;
+     text-shadow: 0 0 1px rgb(0, 255, 255),
+               0 0 5px rgb(0, 255, 255),
+               0 0 10px rgb(0, 255, 255),
+               0 0 20px rgb(0, 255, 255),
+               0 0 25px rgb(0, 255, 255);  
+}
+
+
+
+
+#navbar li.active a {
+     text-shadow: 0 0 1px rgb(0, 255, 255),
+               0 0 5px rgb(0, 255, 255),
+               0 0 10px rgb(0, 255, 255),
+               0 0 20px rgb(0, 255, 255),
+               0 0 25px rgb(0, 255, 255);
+}
+
+
+section{
+     height: 100vh;
+     width: 50vw;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+
+.owner1 h3{
+     margin-left: 110%;
+     margin-bottom: 58%;
+     color: #fff;
+     z-index: 1;
+     font-style: italic;
+}
+
+
+.owner1 h3:hover{
+     color: rgb(0, 255, 255);
+     text-shadow: 0 0 15px rgb(0, 255, 255),
+               0 0 20px rgb(0, 255, 255);
+     cursor: default;
+}
+
+
+.owner1 h5{
+     color: #fff;
+     font-size: 17px;
+     letter-spacing: 1px;
+     font-weight: 400;
+     margin-left: -11%;
+     margin-top: 17%;
+     line-height: 30px;
+     white-space: nowrap;
+     z-index: 1;
+     font-style: italic;
+}
+
+
+.owner1 a{
+     color: #fff;
+     text-decoration: none;
+}
+
+
+.owner1 a:hover{
+     color: rgb(0, 255, 255);
+     text-decoration: underline;
+}
+
+
+.blurry img{
+     height: 17.5vh;
+     width: 17.5vh;
+     border-radius: 10px;
+     margin-left: 7%;
+     margin-top: 14%;
+     box-shadow: 0 0 5px rgb(255, 255, 255);
+     animation: transitionIn 1.3s ease-in-out forwards;
+}
+
+
+.blurry{
+     position: absolute;
+     height: 57vh;
+     width: 26vw;
+     background: transparent;
+     border: 2px solid rgba(255, 255, 255, .2);
+     box-shadow: 0 0 5px rgb(0, 255, 255),
+               0 0 10px rgb(255, 255, 255);
+     backdrop-filter: blur(9px);
+     color: #fff;
+     border-radius: 12px;
+     margin-left: 80%;
+     margin-top: 20%;
+     animation: transitionIn 1.3s ease-in-out forwards;
+}
+
+
+.owner2 h3{
+     margin-left: 109.8%;
+     margin-bottom: 57.5%;
+     color: #fff;
+     z-index: 1;
+     font-style: italic;
+}
+
+
+.owner2 h3:hover{
+     color: rgb(0, 255, 255);
+     text-shadow: 0 0 15px rgb(0, 255, 255),
+               0 0 20px rgb(0, 255, 255);
+     cursor: default;
+     
+}
+
+
+.owner2 h5{
+     color: #fff;
+     font-size: 17px;
+     letter-spacing: 1px;
+     font-weight: 400;
+     margin-left: -5.6%;
+     margin-top: 17%;
+     line-height: 30px;
+     white-space: nowrap;
+     z-index: 1;
+     font-style: italic;
+}
+
+
+.owner2 a{
+     color: #fff;
+     text-decoration: none;
+}
+
+
+.owner2 a:hover{
+     color: rgb(0, 255, 255);
+     text-decoration: underline;
+}
+
+
+.blurry2 img{
+     height: 17.5vh;
+     width: 17.5vh;
+     border-radius: 10px;
+     margin-left: 7%;
+     margin-top: 14%;
+     box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+
+.blurry2{
+     position: absolute;
+     height: 57vh;
+     width: 26vw;
+     background: transparent;
+     border: 2px solid rgba(255, 255, 255, .2);
+     box-shadow: 0 0 5px rgb(0, 255, 255),
+               0 0 10px rgb(255, 255, 255);
+     backdrop-filter: blur(9px);
+     color: #fff;
+     border-radius: 12px;
+     margin-left: 80%;
+     margin-top: 127.5%;
+}
+
+
+.owner3 h3{
+     margin-left: 110%;
+     margin-bottom: 58%;
+     color: #fff;
+     z-index: 1;
+     font-style: italic;
+     white-space: nowrap;
+}
+
+
+.owner3 h3:hover{
+     color: rgb(0, 255, 255);
+     text-shadow: 0 0 15px rgb(0, 255, 255),
+               0 0 20px rgb(0, 255, 255);
+     cursor: default;
+}
+
+
+.owner3 h5{
+     color: #fff;
+     font-size: 17px;
+     letter-spacing: 1px;
+     font-weight: 400;
+     margin-left: -17%;
+     margin-top: 17%;
+     line-height: 30px;
+     white-space: nowrap;
+     z-index: 1;
+     font-style: italic;
+}
+
+
+.owner3 a{
+     color: #fff;
+     text-decoration: none;
+}
+
+
+.owner3 a:hover{
+     color: rgb(0, 255, 255);
+     text-decoration: underline;
+}
+
+
+.blurry3 img{
+     height: 17.5vh;
+     width: 17.5vh;
+     border-radius: 10px;
+     margin-left: 7%;
+     margin-top: 14%;
+     box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+
+.blurry3{
+     position: absolute;
+     height: 57vh;
+     width: 26vw;
+     background: transparent;
+     border: 2px solid rgba(255, 255, 255, .2);
+     box-shadow: 0 0 5px rgb(0, 255, 255),
+               0 0 10px rgb(255, 255, 255);
+     backdrop-filter: blur(9px);
+     color: #fff;
+     border-radius: 12px;
+     margin-left: 80%;
+     margin-top: 234.5%;
+}
+
+
+.owner4 h3{
+     margin-left: 113.7%;
+     margin-bottom: 58%;
+     color: #fff;
+     z-index: 1;
+     font-style: italic;
+     white-space: nowrap;
+}
+
+
+.owner4 h3:hover{
+     color: rgb(0, 255, 255);
+     text-shadow: 0 0 15px rgb(0, 255, 255),
+               0 0 20px rgb(0, 255, 255);
+     cursor: default;
+}
+
+
+.owner4 h5{
+     color: #fff;
+     font-size: 17px;
+     letter-spacing: 1px;
+     font-weight: 400;
+     margin-left: -14.5%;
+     margin-top: 17%;
+     line-height: 30px;
+     white-space: nowrap;
+     z-index: 1;
+     font-style: italic;
+}
+
+
+.owner4 a{
+     color: #fff;
+     text-decoration: none;
+}
+
+
+.owner4 a:hover{
+     color: rgb(0, 255, 255);
+     text-decoration: underline;
+}
+
+
+.blurry4 img{
+     height: 17.5vh;
+     width: 17.5vh;
+     border-radius: 10px;
+     margin-left: 7%;
+     margin-top: 14%;
+     box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+
+.blurry4{
+     position: absolute;
+     height: 57vh;
+     width: 26vw;
+     background: transparent;
+     border: 2px solid rgba(255, 255, 255, .2);
+     box-shadow: 0 0 5px rgb(0, 255, 255),
+               0 0 10px rgb(255, 255, 255);
+     backdrop-filter: blur(9px);
+     color: #fff;
+     border-radius: 12px;
+     margin-left: 80%;
+     margin-top: 341.8%;
+}
+
+
+
+.owner5 h3{
+     margin-left: 110.5%;
+     margin-bottom: 58%;
+     color: #fff;
+     z-index: 1;
+     font-style: italic;
+     white-space: nowrap;
+}
+
+
+.owner5 h3:hover{
+     color: rgb(0, 255, 255);
+     text-shadow: 0 0 15px rgb(0, 255, 255),
+               0 0 20px rgb(0, 255, 255);
+     cursor: default;
+}
+
+
+.owner5 h5{
+     color: #fff;
+     font-size: 17px;
+     letter-spacing: 1px;
+     font-weight: 400;
+     margin-left: -12.8%;
+     margin-top: 17%;
+     line-height: 30px;
+     white-space: nowrap;
+     z-index: 1;
+     font-style: italic;
+}
+
+
+.owner5 a{
+     color: #fff;
+     text-decoration: none;
+}
+
+
+.owner5 a:hover{
+     color: rgb(0, 255, 255);
+     text-decoration: underline;
+}
+
+
+.blurry5 img{
+     height: 17.5vh;
+     width: 17.5vh;
+     border-radius: 10px;
+     margin-left: 7%;
+     margin-top: 14%;
+     box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+
+.blurry5{
+     position: absolute;
+     height: 57vh;
+     width: 26vw;
+     background: transparent;
+     border: 2px solid rgba(255, 255, 255, .2);
+     box-shadow: 0 0 5px rgb(0, 255, 255),
+               0 0 10px rgb(255, 255, 255);
+     backdrop-filter: blur(9px);
+     color: #fff;
+     border-radius: 12px;
+     margin-left: 80%;
+     margin-top: 449%;
+}
+
+
+/*Navigation*/
+header{
+     left: 1030px;
+     top: -2.5%;
+     position: absolute;
+     animation: transitionIn 1.3s ease-in-out forwards;
+}
+
+
+.nav-list{
+     display: flex;
+     gap: 5.2rem;
+}
+
+
+.nav-list h4{
+     font-size: 13px;
+     font-style: normal;
+     color: #fff;
+     text-align: center;
+     text-decoration: none;
+     text-shadow: -1px 1px 15px rgb(255, 255, 255);
+}
+
+
+.nav-list h4:hover{
+     line-height: 1px;
+     transition: 0.3s;
+     letter-spacing: 1px;
+     text-shadow: 0 0 5px rgb(0, 255, 255),
+               0 0 10px rgb(0, 255, 255),
+               0 0 20px rgb(0, 255, 255),
+               0 0 30px rgb(0, 255, 255),
+               0 0 40px rgb(0, 255, 255),
+               0 0 50px rgb(0, 255, 255);
+}
+
+
+@keyframes transitionIn {
+     from{
+          opacity: 0;
+          transform: perspective(30px);
+          background-color: rgb(0, 0, 0);
+     } 
+}
+
+

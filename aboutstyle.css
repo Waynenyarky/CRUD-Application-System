@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     height: 158vh;
+     background-image: url(aboutImg.png);
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+/*Navigation*/
+header{
+     position: absolute;
+     left: 57.7%;
+     bottom: 93.3%;
+}
+
+
+.nav-list{
+     display: flex;
+     font-size: 13px;
+     gap: 6rem;
+     cursor: pointer;
+     list-style-type: none;
+}
+
+
+.nav-list a{
+     text-align: center;
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     text-shadow: -1px 1px 15px rgb(255, 255, 255);
+}
+
+
+.nav-list a:hover{
+     line-height: 1px;
+     transition: 0.3s;
+     letter-spacing: 1px;
+     text-shadow: 0 0 5px rgb(0, 255, 255),
+               0 0 10px rgb(0, 255, 255),
+               0 0 20px rgb(0, 255, 255),
+               0 0 30px rgb(0, 255, 255),
+               0 0 40px rgb(0, 255, 255),
+               0 0 50px rgb(0, 255, 255);
+}
+
+/*Img and bg*/
+.logo2 img{
+     position: absolute;
+     left: 75%;
+     top: 11.8%;
+}
+
+.logo1 img{
+     position: absolute;
+     left: 20%;
+     top: 11.8%;
+}
+
+.transpabg{
+     position: absolute;
+     height: 140vh;
+     width: 65vw;
+     background: transparent;
+     border: 2px solid rgba(255, 255, 255, .2);
+     box-shadow: 0 0 5px rgb(0, 255, 255),
+               0 0 10px rgb(255, 255, 255);
+     backdrop-filter: blur(11px);
+     color: #fff;
+     border-radius: 12px;
+     left: 17.5%;
+     top: 10%;
+     z-index: -1;
+}
+
+
+/*About*/
+.header h1 {
+     position: absolute;
+     font-size: 52px;
+     left: 29%;
+     color: #fff;
+     bottom: 77%;
+     font-style: italic;
+}
+
+.about_us{
+     position: absolute;
+     font-size: 30px;
+     font-weight: 750;
+     left: 22%;
+     color: #fff;
+     top: 25%;
+}
+
+.about{
+     position: absolute;
+     font-size: 20px;
+     left: 24.5%;
+     color: #fff;
+     top: 30%;
+}
+
+.our_mission{
+     position: absolute;
+     font-size: 28px;
+     font-weight: 800;
+     left: 22%;
+     color: #fff;
+     top: 43%;
+}
+
+.mission{
+     position: absolute;
+     font-size: 20px;
+     left: 24.5%;
+     color: #fff;
+     top: 48%;
+}
+
+.offer{
+     position: absolute;
+     font-size: 32px;
+     font-weight: 800;
+     left: 22%;
+     color: #fff;
+     top: 63%;
+}
+
+.custom{
+     position: absolute;
+     font-size: 23px;
+     font-weight: 750;
+     left: 24%;
+     color: #fff;
+     top: 68%;
+}
+
+.offer-item1{
+     position: absolute;
+     font-size: 20px;
+     left: 25.5%;
+     color: #fff;
+     top: 72%;
+}
+
+.user{
+     position: absolute;
+     font-size: 23px;
+     font-weight: 750;
+     left: 24%;
+     color: #fff;
+     top: 80%;
+}
+
+.offer-item2{
+     position: absolute;
+     font-size: 20px;
+     left: 25.5%;
+     color: #fff;
+     top: 84%;
+}
+
+.scale{
+     position: absolute;
+     font-size: 23px;
+     font-weight: 750;
+     left: 24%;
+     color: #fff;
+     top: 92%;
+}
+
+.offer-item3{
+     position: absolute;
+     font-size: 20px;
+     left: 25.5%;
+     color: #fff;
+     top: 96%;
+}
+
+.expert{
+     position: absolute;
+     font-size: 23px;
+     font-weight: 750;
+     left: 24%;
+     color: #fff;
+     top: 107%;
+}
+
+.offer-item4{
+     position: absolute;
+     font-size: 20px;
+     left: 25.5%;
+     color: #fff;
+     top: 111%;
+}
+
+.team{
+     position: absolute;
+     font-size: 20px;
+     font-weight: 700;
+     left: 26%;
+     color: #fff;
+     top: 118%;
+}
+
+.group{
+     position: absolute;
+     font-size: 18px;
+     left: 28.5%;
+     color: #fff;
+     top: 121%;
+}
+
+.footer{
+     position: absolute;
+     font-size: 16.5px;
+     left: 33.6%;
+     color: #fff;
+     top: 142%;
+}
+
+.copyright h6{
+     top: 148.1%;
+     font-size: 10px;
+     position: absolute;
+     bottom: 0;
+     left: 46.5%;
+     color: #474747;
+     font-style: italic;
+     cursor: default;
+}
